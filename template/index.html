@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="#">
@@ -20,6 +20,7 @@
 
 body {
   font: 16px Arial;
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
 }
 
 /*the container must be positioned relative:*/
@@ -30,9 +31,9 @@ body {
 
 input {
   border: 1px solid transparent;
-  background-color: #f1f1f1;
+  background-color: #f5f0f0;
   padding: 10px;
-  font-size: 16px;
+  font-size: 26px;
 }
 
 input[type=text] {
@@ -89,9 +90,9 @@ input[type=submit] {
 </head>
 <body>
 
-    <nav>
+    <nav >
     <div class="container nav-wrapper">
-        <a href="/" class="brand-logo">Web Scrapper</a>
+        <a href="/" class="brand-logo" sytle="position:relative;">Web Scrapper</a>
         <ul id="nav-mobile" class="right">
             <li><a href="/">Home</a></li>
             <li><a href="accounts/profile">Profile</a></li>
@@ -100,9 +101,10 @@ input[type=submit] {
 
 
 
-            {% if user.is_authenticated %}
-            <li style="color:rgb(15, 15, 46)" >Hello, {{ user }}</li>
+            
             <li><a href="accounts/logout">Logout</a></li>
+            {% if user.is_authenticated %}
+            <li style="color:rgb(28, 85, 11)" > {{ user }}</li>
 
             {% else %}
             <li><a href="accounts/login">Login</a></li>
@@ -148,10 +150,13 @@ input[type=submit] {
 
 
                  </div>
-             <input type="submit">
+             <!-- <button type="submit" onclick="renderjobs"> </button> -->
             </form>
-
+            <button type="submit" onclick="renderjobs()">search jobs</button>
 <script>
+  function renderjobs(){
+    window.location.href="Result.html";
+  }
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
   the text field element and an array of possible autocompleted values:*/

@@ -1,0 +1,264 @@
+html body *, html body div .gnav *{
+    font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+div {
+    display: block;
+}
+[dir] .is-i18n {
+    font-family: Noto Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.jobsearch-JapanPageLayout {
+    word-break: break-all;
+    word-break: break-word;
+}
+:root[lang=ja] body, body {
+    font-size: .875rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.43;
+}
+body {
+    margin: 0;
+    font-family: Noto Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+:root {
+    --PhoneInput-color--focus: #03b2cb;
+    --PhoneInputInternationalIconPhone-opacity: 0.8;
+    --PhoneInputInternationalIconGlobe-opacity: 0.65;
+    --PhoneInputCountrySelect-marginRight: 0.35em;
+    --PhoneInputCountrySelectArrow-width: 0.3em;
+    --PhoneInputCountrySelectArrow-marginLeft: var(--PhoneInputCountrySelect-marginRight);
+    --PhoneInputCountrySelectArrow-borderWidth: 1px;
+    --PhoneInputCountrySelectArrow-opacity: 0.45;
+    --PhoneInputCountrySelectArrow-color: inherit;
+    --PhoneInputCountrySelectArrow-color--focus: var(--PhoneInput-color--focus);
+    --PhoneInputCountrySelectArrow-transform: rotate(45deg);
+    --PhoneInputCountryFlag-aspectRatio: 1.5;
+    --PhoneInputCountryFlag-height: 1em;
+    --PhoneInputCountryFlag-borderWidth: 1px;
+    --PhoneInputCountryFlag-borderColor: rgba(0,0,0,0.5);
+    --PhoneInputCountryFlag-borderColor--focus: var(--PhoneInput-color--focus);
+    --PhoneInputCountryFlag-backgroundColor--loading: rgba(0,0,0,0.1);
+}
+.mosaic-provider-jobcards ul.jobsearch-ResultsList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.mosaic-provider-jobcards .tapItem.result {
+    visibility: visible;
+    max-height: 1000px;
+}
+.mosaic-provider-jobcards .tapItem.result {
+    padding: 0;
+}
+[dir=ltr] .mosaic-provider-jobcards .tapItem {
+    padding-right: 1.75rem;
+    padding-left: .875rem;
+    background-position: 97% 50%;
+}
+.mosaic-provider-jobcards .css-kyg8or {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+}
+.mosaic-provider-jobcards .tapItem {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    overflow: hidden;
+    padding: .5rem 0;
+    background-repeat: no-repeat;
+    min-height: 44px!important;
+    box-sizing: border-box!important;
+}
+.css-kyg8or {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+}
+.mosaic-provider-jobcards .result .slider_container {
+    position: relative;
+    overflow: hidden;
+}
+.mosaic-provider-jobcards .css-77eoo7 {
+    box-sizing: border-box;
+    min-width: 0;
+    box-shadow: 0 .125rem .25rem rgba(45,45,45,.12),0 .0625rem .1875rem rgba(45,45,45,.16),0 0 .125rem rgba(45,45,45,.2);
+    border: cornsilk;
+    margin: 10px 4rem 2.75rem;
+    border-radius: 8px;
+    background-color: #ccd5ae;
+    text-align: -webkit-match-parent;
+}
+
+.mosaic-provider-jobcards .tapItem.result.resultWithShelf .slider_container .jobCard_mainContent {
+    padding: 1rem 1rem 0!important;
+}
+.mosaic-provider-jobcards .tapItem.result .slider_container .jobCard_mainContent {
+    padding: 1rem!important;
+    border-collapse: initial;
+}
+.mosaic-provider-jobcards .result .jobCard_mainContent {
+    table-layout: unset!important;
+    width: unset!important;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.mosaic-provider-jobcards .css-1m4cuuf {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    padding-right: 2.6rem;
+}
+.css-1h4a4n5 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin: 0;
+    color: #2d2d2d;
+    letter-spacing: -0.06px;
+    overflow: hidden;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    font-weight: 600;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.css-jspxzf {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit!important;
+    position: static;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.css-jspxzf::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+[dir=ltr] .mosaic-provider-jobcards .result .resultContent .company_location {
+    padding-right: 2.6rem!important;
+}
+.mosaic-provider-jobcards .result .resultContent .tapItem-gutter {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    line-height: 1.35;
+}
+.mosaic-provider-jobcards .big6_visualChanges .resultContent .company_location {
+    padding-bottom: .75rem;
+}
+.mosaic-provider-jobcards .result .resultContent .companyInfo {
+    word-break: break-word;
+}
+.mosaic-provider-jobcards .result .resultContent .company_location {
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    margin: 0;
+    font-weight: 400;
+}
+.mosaic-provider-jobcards .result .resultContent .heading6 {
+    line-height: 1.35;
+}
+.mosaic-provider-jobcards .result * {
+    font-family: Noto Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: initial;
+}
+.mosaic-provider-jobcards .result .resultContent .companyName {
+    line-height: 1.5rem!important;
+    display: inline;
+    font-size: 1rem!important;
+    color: #2d2d2d;
+}
+.mosaic-provider-jobcards .result .resultContent .ratingsDisplay {
+    line-height: 1.5rem;
+    display: inline;
+    padding-left: .5rem;
+}
+.mosaic-provider-jobcards .result .resultContent .ratingsDisplay {
+    bottom: -1px;
+    position: relative;
+}
+.mosaic-provider-jobcards .result .ratingsDisplay {
+    white-space: nowrap;
+    font-size: .875rem;
+    color: #848484;
+}
+.mosaic-provider-jobcards .result .resultContent .companyLocation {
+    align-items: center;
+    display: flex;
+    font-size: 1rem!important;
+    line-height: 1.5rem!important;
+    color: #2d2d2d;
+    flex-wrap: wrap;
+}
+.mosaic-provider-jobcards .result .resultContent .heading6 {
+    line-height: 1.35;
+}

@@ -61,19 +61,22 @@ def scrapper(city,url1,tech):
 
 
 def index(req):
-    url = "https://www.monster.com/jobs/search/"
+    url = "https://in.indeed.com/"
     where = "All"
     tech = "Accounting,Java,Python,Web Developer,Django,PHP, Blockchain ,Machine Learning"
     data = scrapper(where,url,tech)
     return render(req, 'index.html', {'jobs':data})
 
 def search(req):
-    url = "https://www.monster.com/jobs/search/"
+    url = "https://in.indeed.com/"
     print(req)
     where = req.POST.get('myCountry')
     tech = req.POST.get('Tech')
     data = scrapper(where,url,tech)
     return render(req, 'index.html', {'jobs':data})
+
+# def submit(req):
+#     return render(req, 'Result.html')
     
 
 '''

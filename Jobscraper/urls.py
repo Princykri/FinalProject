@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name = "home"),
     path('search',views.search,name = "search"),
-    #path('search',naukri.search,name = "search"),
+    path('submit',views.Result,name = "submit"),
 
 
     path('accounts/',include('accounts.urls')),
